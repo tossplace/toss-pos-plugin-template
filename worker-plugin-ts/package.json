@@ -1,0 +1,30 @@
+{
+  "name": "worker-plugin-ts",
+  "private": true,
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "webpack serve --config webpack.config.mjs",
+    "build": "webpack --config webpack.config.mjs",
+    "typecheck": "eslint --fix src/**/*.ts && tsc --noEmit",
+    "test:dev": "jest src/__test__/test.e2e.ts",
+    "zip": "pnpm build && zip -r test-plugin.zip dist/ -x \"*.DS_Store\""
+  },
+  "dependencies": {
+    "@tossplace/pos-plugin-sdk": "^0.0.7"
+  },
+  "devDependencies": {
+    "@tossplace/pos-plugin-test": "^0.0.8",
+    "@types/jest": "^29",
+    "@types/node": "^22.13.16",
+    "jest": "^29",
+    "process": "^0.11.10",
+    "ts-jest": "^29",
+    "ts-loader": "^9.5.2",
+    "ts-node": "^10",
+    "typescript": "^4.7.3",
+    "webpack": "^5",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^4.13.3"
+  }
+}
