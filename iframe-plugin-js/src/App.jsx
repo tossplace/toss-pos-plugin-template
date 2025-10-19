@@ -1,5 +1,5 @@
 import "./App.css";
-import { posPluginSdk } from "@tossplace-nexus/sdk";
+import { posPluginSdk } from "@tossplace/pos-plugin-sdk";
 
 function App() {
   return (

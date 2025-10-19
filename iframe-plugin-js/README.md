@@ -13,7 +13,7 @@ npm install
 ### 2. SDK 최신화
 
 ```bash
-npm install @tossplace-nexus/sdk@latest
+npm install @tossplace/pos-plugin-sdk@latest
 ```
 
 ### 3. 개발 서버 실행
