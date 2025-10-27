@@ -11,7 +11,7 @@
     "zip": "pnpm build && zip -r test-plugin.zip dist/ -x \"*.DS_Store\""
   },
   "dependencies": {
-    "@tossplace/pos-plugin-sdk": "^0.0.10"
+    "@tossplace/pos-plugin-sdk": "^0.0.11"
   },
   "devDependencies": {
     "@tossplace/pos-plugin-test": "^0.0.9",
