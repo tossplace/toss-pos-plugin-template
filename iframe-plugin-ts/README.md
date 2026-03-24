@@ -1,6 +1,6 @@
-# iframe-plugin-js
+# iframe-plugin-ts
 
-Toss POS용 [iframe 플러그인](https://docs.tossplace.com/guide/pos-integration/plugin/develop/iframe-package.html) JavaScript 템플릿입니다.
+Toss POS용 [iframe 플러그인](https://docs.tossplace.com/guide/pos-integration/plugin/develop/iframe-package.html) TypeScript 템플릿입니다.
 
 ## 시작하기
 
@@ -49,10 +49,8 @@ iframe-manifest.json
    ```
 
 2. **배포 파일 압축**
-
    - 생성된 `dist` 폴더를 zip 파일로 압축
 
 3. **[개발자 센터](https://developers.tossplace.com/plugins) 업로드**
-
    - zip 파일을 토스플레이스 개발자 센터에 업로드
    - 플러그인 검수 및 배포 진행
